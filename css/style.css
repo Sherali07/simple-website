@@ -1,0 +1,505 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;400;700&display=swap');
+
+body{
+    
+    font-family: 'Oswald', sans-serif; 
+    margin: 0px;
+    padding: 0px;
+}
+p{
+    font-size: 20px;
+    line-height: 40px;
+    font-weight:200;
+}
+.hamburger-menu{
+    border: 2px solid red;
+    position: relative;
+}
+    
+.hamburger-menu input[type="checkbox"]{
+    display: block;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    width: 40px;
+    height: 32px;
+    z-index: 5;
+    opacity: 0;
+}
+.hamburger-lines{
+    width: 40px;
+    height: 32px;
+    background:lightseagreen ;
+    position: absolute;
+    top: 8px;
+    left: 7px;
+    z-index:2 ;
+}
+.menucenter{
+    display: none;
+}
+.hamburger-menu input[type="checkbox"]:checked ~ .menucenter {
+    display: block;
+  }
+  
+  
+
+
+
+/* ######## navbarstyle######### */
+.menu-items{
+    display: flex;
+    background-color: white;
+    text-transform: uppercase;
+   
+
+}
+.menu-items li {
+    padding: 10px;
+    font-size: 22px;
+    list-style: none;
+    
+    
+}
+.menu-items li a{
+    color: black;
+    text-decoration: none;
+
+
+}
+.logo{
+    color: skyblue !important;
+    font-size: 21px;
+}
+.signin{
+    color: skyblue !important;
+}
+.menucenter{
+    display: flex;
+    margin:auto
+    }
+.icon{
+    font-size: 35px;
+    
+}
+
+.title{
+    display: flex;
+    align-items: center;
+    
+}
+
+
+.bg{
+    background-color: rgb(75, 74, 74);
+}
+.flex{
+    display: flex;
+    margin: auto;
+    width: 90%;
+    height: 80vh;
+    align-items: center;
+}
+
+.firstheading{
+    color: white;
+    text-transform: uppercase;
+}
+.secondheading{
+    color: rgb(61, 61, 243);
+    text-transform: uppercase;
+    margin-top: -20px;
+}
+.firstp{
+    color: white;
+    margin-top: 50px;
+}
+.mainbtn{
+    border:2px solid royalblue;
+    border-color:rgb(61, 61, 243) ;
+    width: 150px;
+    padding: 10px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+.sbtn1  {
+    padding: 10px;
+    width: 50px;
+    border-radius: 50px;
+    border: 2px solid royalblue;
+    margin-left: 14px;
+    font-size: 20px;
+    
+    }
+
+.txtd{
+  
+    padding: 40px;
+   
+}
+.picd{
+  
+    padding:50px ;
+    margin-top: 60px;
+    margin-left: 80px;
+    
+}
+.pic{
+    height: 300px;
+    width: 300px;
+}
+
+.mainbtn:hover, .sbtn1:hover{
+    background-color: rgb(61, 61, 243);
+    cursor: pointer;
+    color: white;
+}
+.about{
+    display: flex;
+    background-color: aliceblue;
+    height: 100vh;
+    align-items: center;
+}
+.aboutp{
+    width: 50%;
+    padding: 50px;
+    margin-right: 40px;
+    margin-bottom: 50px;
+}
+.pic2{
+    width: 50%;
+    padding:40px ;
+    margin-top: 60px;
+    margin-left: 80px;
+}
+.habout{
+    text-align: right;
+}
+.abtbtn{
+    float: right;
+    border:2px solid royalblue;
+    width: 150px;
+    padding: 10px;
+    border-radius: 20px;
+ }
+ .abtbtn:hover{
+    background-color:rgb(61, 61, 243) ;
+    cursor: pointer;
+    color: white;
+
+ }
+ .imgitem{
+    width: 250px;
+    height: 250px;
+    padding: 100px;
+ }
+ .product{
+    display: flex;
+    height: 80vh;
+    align-items: center;
+ }
+ .xbox1{
+    width: 50%;
+ }
+ .xbox2{
+    width: 50%;
+ }
+ .ximg1{
+    width: 400px;
+    height: 300px;
+ }
+ .center{
+    text-align: center;
+ }
+ .pd{
+    color: royalblue;
+ }
+ .pr{
+    color: royalblue;
+ }
+ .seemorebtn{
+    border:2px solid royalblue;
+    border-color:rgb(61, 61, 243) ;
+    padding: 10px;
+    width: 150px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    margin-top: 40px;
+ }
+ .op{
+    text-transform: uppercase;
+ }
+ .rc{
+    display: flex;
+    background-color: rgb(75, 74, 74);
+    height: 90vh;
+    align-items: center;
+
+ }
+ .remoteParagraph{
+    width: 50%;
+    padding: 40px;
+    margin-left: 40px;
+
+ }
+ .glassesImage{
+    width: 50%;
+    padding:50px ;
+    margin-top: 60px;
+    margin-left: 80px;
+}
+.videogameHeading{
+    color: royalblue;
+    text-transform: uppercase;
+    margin-top: 40px;
+}
+.remotecontrolHeading{
+    color: white;
+    text-transform: uppercase;
+    
+}
+.rcParagraph{
+    color: white;
+}
+.testMainDiv{
+    text-align: center;
+}
+.boxDiv{
+    border: 1px solid black;
+    width: 50%;
+    margin: auto;
+    border-radius: 30px;
+}
+.insideBoxDiv{
+    display: flex;
+    
+}
+.sherImg{
+    width: 50px;
+    height: 70px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.font{
+    text-align: left !important;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.testParagraph{
+    margin-bottom: 50px;
+}
+.seemorebtn:hover
+{
+    background-color:rgb(61, 61, 243);
+    cursor: pointer;
+}
+.formItem{
+    border-bottom: 1px solid gray;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    width: 300px;
+    padding: 10px;
+    margin-left: 50px;
+    margin-top: 20px;
+    background-color: lightgrey;
+}
+.buttonSend{
+    border: none;
+    background-color: rgb(250, 37, 37);
+    color: white;
+    width: 90px;
+    padding: 10px;
+    border-radius: 14px;
+    margin-bottom: 20px;
+    margin-top: 40px;
+    cursor: pointer;
+    margin-left: 50px;
+
+}
+.formSend{
+    background-color:lightgrey;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    
+}
+.remoteD{
+    margin-left: 50%;
+
+}
+.form{
+    margin-left: 50px;
+}
+.footer{
+    background-color: black;
+    text-align: center;
+    color: white;
+}
+.footerBar{
+    
+  
+  
+   
+    display: flex;
+    
+}
+.footerItem{
+    width: 25%;
+}
+.sub{
+    border: none;
+    background-color: royalblue;
+    color: white;
+    padding: 5px;
+  
+    margin-top: 5px;
+}
+.aboutUs{
+    margin-left: 100px;
+}
+.newsLetter{
+    margin-right: 100px;
+}
+.icons i{
+   align-items: center;
+    padding:10px;
+}
+html{
+    scroll-behavior: smooth;
+}
+@media screen and (max-width:900px) and (min-width:420px) {
+    .flex{
+        display: block;
+        height: 100%;
+         }
+    .main{
+        display: block;
+        height: 100%;
+    } 
+    .about{
+        display: block;
+        height: 100%;
+    }
+    .product{
+        display: block;
+        height: 100%;
+    }  
+    .rc{
+        display: block;
+        height: 100%;
+    }
+    .testMainDiv{
+        display: block;
+        height:100%
+    }  
+    .formSend{
+        display: block;
+        height: 100%;
+    }
+    .remoteD{
+       margin-left: 0px !important;
+      
+    }
+    }
+    @media screen  and (max-width:420px) {
+        .flex{
+          
+            display: block !important;
+            height: 100% !important;
+        }
+        .pic{
+            height: 300px;
+            width: 300px;
+            margin-left: -100px;
+        }
+        .op{
+            margin-left:85% ;
+        }
+        .a{
+            margin-left: 50%;
+            width: 100%;
+        }
+        .about{
+            display: block;
+            height: 100%;
+        }
+        .imgitem{
+            height: 300px;
+            width: 300px;
+            margin-left: -160px;
+        }
+        .center{
+            display: block;
+            height: 100%;
+        }
+        .product{
+            display: block;
+            height: 100%;
+        }
+        .ximg1{
+            height: 300px;
+            width: 300px;
+            margin-left: 35px;
+        }
+        .rc{
+            display: block;
+            height: 100%;
+        }
+        .gImg{
+            height: 300px !important;
+            width: 300px !important;
+            margin-left: 35px;
+        }
+
+        .testMainDiv{
+            display: block;
+            height: 100%;
+        }
+        .formSend{
+            display: block;
+            height: 100%;
+            margin-left:0px !important ;
+        }
+        .form{
+            margin-left: 0px;
+        }
+        .formItem{
+            margin-left: 0px;
+            margin: 10px;
+        
+        }
+        .buttonSend{
+            width: 80%;
+            margin: 10px;
+            margin-left: 37px;
+           
+        }
+        .remoteD{
+            height: 300px;
+            width: 300;
+            margin-left: 35px;
+            
+        }
+        .footer{
+            display: block;
+        }
+        
+        
+        .menu-items{
+            display: block;
+        }
+        .menucenter{
+            display: list-item;
+                list-style: none;
+        }
+        .footerBar{
+            display: block;
+            height: 100%;
+        }
+    
+        }
+        
+    
+    
